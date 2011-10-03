@@ -13,6 +13,10 @@ ADMINS = (
 SEND_BROKEN_LINK_EMAILS = False
 MANAGERS = ADMINS
 
+# sandcastle configuration
+SANDCASTLE_USER = 'Khan'
+SANDCASTLE_REPO = 'khan-exercises'
+
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
 TIME_ZONE = 'Africa/Accra' # UTC+00 and no DST
 
